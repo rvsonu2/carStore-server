@@ -10,6 +10,6 @@ import com.carstoresystem.pojo.TbMasterEmployee;
 @Mapper(componentModel = "spring")
 public interface StoreMapStruct {
 
-//	TbMasterEmployee empDtoToPojo(EmployeeDto empDTO);
+	TbMasterEmployee empDtoToPojo(EmployeeDto empDTO);
 
 }

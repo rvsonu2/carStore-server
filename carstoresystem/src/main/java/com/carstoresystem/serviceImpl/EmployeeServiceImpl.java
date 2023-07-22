@@ -31,7 +31,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	public EmployeeDto registration(EmployeeDto empDTO) {
 		// TODO Auto-generated method stub
 		TbMasterEmployee employeePojo=new TbMasterEmployee();
-//		employeePojo=mapStruct.empDtoToPojo(empDTO);
+		employeePojo=mapStruct.empDtoToPojo(empDTO);
 		empRepo.save(employeePojo);
 		return empDTO;
 	}
