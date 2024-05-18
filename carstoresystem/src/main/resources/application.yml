@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: carstoresystem
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: neeyamo@123
+    url: jdbc:mysql://localhost:3306/car_store_system
+    username: root
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
